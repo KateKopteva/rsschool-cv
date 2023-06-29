@@ -19,3 +19,30 @@ I'm a creative person. I make edible bouquets of sweets, dried fruits, sousages,
 I'm hard-working and respondible person with good organizational skills. I pay attention to all the details and like to be sure that everything is just right.
 
 *** 
+
+#### SKILLS
+
+* Python
+* Django
+* HTML, CSS
+* SQL
+* GIT
+* Docker
+  
+***
+
+#### CODE EXAMPLE
+
+***KATA from CODEWARS***.
+*Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.*
+
+```python
+def move_zeros(lst):
+    for j in range(len(lst)):
+        for i in range (len(lst)-j-1):
+            if lst[i] == 0:
+                lst[i], lst[i+1] = lst[i+1], lst[i]
+    return lst
+```
+
+***
