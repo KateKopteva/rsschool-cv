@@ -8,6 +8,8 @@ LinkedIn: <https://clck.ru/Ye4QU>
 
 GitHub: <https://github.com/KateKopteva>
 
+Discord-server nickname: Kate Kopteva (@KateKopteva)
+
 ***
 
 #### ABOUT ME
@@ -46,3 +48,24 @@ def move_zeros(lst):
 ```
 
 ***
+
+#### WORK EXPERIENCE
+
+* Minsk Electric Networks, *full stack developer* 
+* Coding School TeachMeSkills, *python developer*
+* Mostra-group, *economist*
+  
+***
+
+#### EDUCATION
+
+* Coding School TeachMeSkills, *python developer*
+* Stepik.org, *python for beginners, javascript for beginners*
+* Belarusian National Technical University, *manager-economist*
+
+***
+
+#### LANGUAGES
+
+* English - Pre-Intermediate
+* Russian - Native 
