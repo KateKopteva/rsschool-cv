@@ -3,135 +3,170 @@
 <head>
   <meta charset="utf-8">
   <title>CV</title>
+  <link rel="icon" href="media/favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="main">
-        <h1>Kate Kopteva</h1>
-        <nav class='contacts'>
-            <ul>
-                <li>
-                    <p>Phone: +375295066054</p>
-                </li>
-                <li>
-                    <p>Email: bychkokatya@gmail.com</p>
-                </li>
-                <li>
-                    <p>LinkedIn: https://clck.ru/Ye4QU</p>
-                </li>
-                <li>
-                    <p>GitHub: https://github.com/KateKopteva</p>
-                </li>
-            </ul>
-        </nav>
-    </header>  
-    <main>
-        <article>
-            <section>
-                <h3>Objective</h3>
-                <p>Full Stack Developer</p>
-            </section>
-            <section>
-                <h3>Education</h3>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>06/2021-10/2021 Coding School TeachMeSkills</td>
-                            <td>Course: Python Developer</td>
-                        </tr>
-                        <tr>
-                            <td>2021-2022 Stepik.org</td>
-                            <td>Course: python for beginners, javascript for beginners</td>
-                        </tr>
-                        <tr>
-                            <td>2012-2016 Belarusian National Technical University</td>
-                            <td>Specialization: manager-economist</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <section>
-                <h3>Work experience</h3>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>01/2022 - now Minsk Electric Networks</td>
-                            <td>Full Stack Developer Description: development a local website and web-resources</td>
-                        </tr>
-                        <tr>
-                            <td>06/2021 - 10/2021 Coding School TeachMeSkills</td>
-                            <td>Python Developer Description: Full Stack Development Web Application using DJANGO</td>
-                        </tr>
-                        <tr>
-                            <td>06/2016 - 09/2018 Mostra-group</td>
-                            <td>Economist Description: Systematization and analysis of sales information. Development of reports for the commercical department.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <section>
-                <h3>Code Example</h3>
-                <div class="example">
-                    <span>KATA from CODEWARS What is an anagram? Well, two words are anagrams of each other 
-                      if they both contain the same letters. 
-                      Write a function that will find all the anagrams of a word from a list.
-                       You will be given two inputs a word and an array with words. 
-                      You should return an array of all the anagrams or an empty array if there are none.
-                    </span>
-                    <pre>
-                        <code>
-                        def anagrams(word, words):,<br>
-                        s = []<br>
-                        for i in words:<br>
-                        if sorted(word) == sorted(i):<br>
-                            s.append(i)<br> 
-                        return s<br>
-                        print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
-                        </code>
-                    </pre>
+    <div class="blocks">
+        <div class="block-left">
+            <header class="header">
+                <div class="header_container">
+                    <div class="header_info">
+                        <h1>Kate Kopteva</h1>
+                        <h2>Full Stack Developer</h2>
+                    </div>
+                    <nav class="header_menu">
+                        <ul class="header_menu__list">
+                            <li class="header_menu__item">Contacts</li>
+                            <li class="header_menu__item">About me</li>
+                            <li class="header_menu__item">Code</li>
+                            <li class="header_menu__item">Skills</li>
+                            <li class="header_menu__item">Projects</li>
+                        </ul>
+                    </nav>
                 </div>
-            </section>
-        </article>
-        <article>
-            <section>
-                <img src='media/photo2.JPG' alt="Kopteva Kate"/>
-            </section>
-            <section>
-                <h3>About me</h3>
-                <div class='about'>
-                    <p>I’m a creative person. I make edible bouquets of sweets, dried fruits, sousages, chees and etc. 
-                      Also I go fishing almost every weekend.
-                      I’m hard-working and respondible 
-                      person with good organizational skills. 
-                      I pay attention to all the details and like to be sure that everything is just right.
-                    </p>
+            </header>  
+            <main class="header">
+                <div class="main_container">
+                <article class="main_container__article">
+                    <section>
+                        <div class="main_item">
+                            <h3>Education</h3><hr>
+                        </div>
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>06/2021-10/2021</p>
+                                    <p class="school">Coding School TeachMeSkills</p>
+                            </div>
+                            <div class="main_item_education_item">
+                                    <p>Course: Python Developer</p>
+                            </div>
+                        </div>
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>2021-2022</p>
+                                    <p class="school">Stepik.org</p>     
+                            </div>
+                            <div class="main_item_education_item">
+                                Course: python for beginners, javascript for beginners
+                            </div>
+                        </div>
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>2012-2016</p>
+                                    <p class="school">Belarusian National Technical University</p>
+                            </div>
+                            <div class="main_item_education_item">
+                                Specialization: manager-economist
+                            </div>
+                        </div> 
+                    </section>
+                    <section>
+                        <div class="main_item">
+                            <h3>Work experience</h3><hr>
+                        </div>
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>01/2022 - now</p>
+                                    <p>Minsk Electric Networks</p>
+                            </div>
+                            <div class="main_item_education_item">
+                                <p class="school">Full Stack Developer</p>
+                                <p>Description: development a local website and web-resources</p> 
+                            </div>
+                        </div> 
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>06/2021 - 10/2021</p>
+                                    <p>Coding School TeachMeSkills</p>
+                            </div>
+                            <div class="main_item_education_item">
+                                <p class="school">Python Developer</p>
+                                <p>Description: Full Stack Development Web Application using DJANGO</p> 
+                            </div>
+                        </div>
+                        <div class="main_item_education">
+                            <div class="main_item_education_item">
+                                    <p>06/2016 - 09/2018</p>
+                                    <p>Mostra-group</p>
+                            </div>
+                            <div class="main_item_education_item">
+                                <p class="school">Economist</p>
+                                <p>Description: Systematization and analysis of sales information. Development of reports for the commercical department</p> 
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="main_item">
+                            <h3>Code Example</h3><hr>
+                        </div>
+                        <div class="example">
+                            <p class="kata">KATA from CODEWARS What is an anagram? Well, two words are anagrams of each other 
+                            if they both contain the same letters. 
+                            Write a function that will find all the anagrams of a word from a list.
+                            You will be given two inputs a word and an array with words. 
+                            You should return an array of all the anagrams or an empty array if there are none.
+                            </p>
+                            <pre>
+                                <code class="code">
+                            <span style="color: #ff7700;font-weight:bold;">def</span> anagrams<span style="color: white;">&#40;</span>word<span style="color: #66cc66;">,</span> words<span style="color: white;">&#41;</span>:
+                                s <span style="color: #66cc66;">=</span> <span style="color: white;">&#91;</span><span style="color: white;">&#93;</span>
+                                <span style="color: #ff7700;font-weight:bold;">for</span> i <span style="color: #ff7700;font-weight:bold;">in</span> words:
+                                    <span style="color: #ff7700;font-weight:bold;">if</span> <span style="color: #008000;">sorted</span><span style="color: white;">&#40;</span>word<span style="color: white;">&#41;</span> <span style="color: #66cc66;">==</span> <span style="color: #008000;">sorted</span><span style="color: white;">&#40;</span>i<span style="color: white;">&#41;</span>:
+                                        s.<span style="color: white;">append</span><span style="color: white;">&#40;</span>i<span style="color: white;">&#41;</span>
+                                <span style="color: #ff7700;font-weight:bold;">return</span> s
+                            <span style="color: #ff7700;font-weight:bold;">print</span><span style="color: white;">&#40;</span>anagrams<span style="color: white;">&#40;</span><span style="color: #483d8b;">'abba'</span><span style="color: #66cc66;">,</span> <span style="color: white;">&#91;</span><span style="color: #483d8b;">'aabb'</span><span style="color: #66cc66;">,</span><span style="color: #483d8b;">'bbaa'</span><span style="color: #66cc66;">,</span> <span style="color: #483d8b;">'dada'</span><span style="color: white;">&#93;</span><span style="color: white;">&#41;</span><span style="color: white;">&#41;</span>
+                                </code> 
+                            </pre>
+                        </div>
+                    </section>
+                </article>
                 </div>
-            </section>
-            <section>
-                <h3>Skills</h3>
-                <div class='skills'>
-                    <ul>
-                        <li><p>Python</p></li>
-                        <li><p>Django</p></li>
-                        <li><p>HTML,CSS</p></li>
-                        <li><p>GIT</p></li>
-                        <li><p>SQL</p></li>
-                        <li><p>Docker</p></li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h3>Languages</h3>
-                <div class='languages'>
-                    <ul>
-                        <li><p>English - Pre-Intermediate</p></li>
-                        <li><p>Russian - Native</p></li>
-                        <li><p>Belarusian - Basic</p></li>
-                    </ul>
-                </div>
-            </section>
-        </article>
-    </main> 
-    <footer>
+            </main> 
+        </div>
+        <div class="block-right">
+            <article>
+                <section class="photo">
+                    <img src='media/photo2.JPG' alt="Kopteva Kate"/>
+                </section>
+                <section>
+                    <h3>About me</h3>
+                    <div class='about'>
+                        <p>I’m a creative person. I make edible bouquets of sweets, dried fruits, sousages, chees and etc. 
+                        Also I go fishing almost every weekend.
+                        I’m hard-working and respondible 
+                        person with good organizational skills. 
+                        I pay attention to all the details and like to be sure that everything is just right.
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <h3>Skills</h3>
+                    <div class='skills'>
+                        <ul>
+                            <li><p>Python</p></li>
+                            <li><p>Django</p></li>
+                            <li><p>HTML,CSS</p></li>
+                            <li><p>GIT</p></li>
+                            <li><p>SQL</p></li>
+                            <li><p>Docker</p></li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h3>Languages</h3>
+                    <div class='languages'>
+                        <ul>
+                            <li><p>English - Pre-Intermediate</p></li>
+                            <li><p>Russian - Native</p></li>
+                            <li><p>Belarusian - Basic</p></li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+    <footer class="header">
         <a href="https://github.com/KateKopteva">
             <img class="github-icon" src="media/github.svg" alt="github-icon">
         </a>
@@ -142,3 +177,5 @@
     </footer>
 </body>
 </html>
+
+
