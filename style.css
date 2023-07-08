@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, 'Georgia';
+    font-family: Arial;
+   
 }
 
 h1, h2, h3, p {
@@ -19,7 +20,7 @@ h1, h2, h3, p {
 body {
     background-color: #fcec0a;
     margin: 0 auto;
-    width: 1000px;
+    width: 1100px;
   }
 
 .blocks {
@@ -30,11 +31,12 @@ body {
 
 .block-right {
     width: 40%;
-   
+    font-size: 18px;
   }
 
 .block-left {
     width: 60%;
+    
   }
 
 .header { 
@@ -120,8 +122,28 @@ pre {
     color: white;
   }
 
- /* ------- LEFT BLOCK -------*/
+ /* ------- RIGHT BLOCK -------*/
 
   .photo {
     text-align: center;
   }
+
+  .about {
+    margin: 10px;
+    text-align: justify;
+  }
+
+  .block-right_about {
+    width: 352px;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 20px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fcec0a;
+    }
