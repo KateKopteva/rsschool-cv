@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+   
+}
+
+h1, h2, h3, p {
+    margin: 0;
+ }
+
+ hr {
+    color: #fcec0a;
+ }
+
+ h2 {
+    font-weight: normal;
+ }
+
+ a {
+    text-decoration: none;
+    color: #000000;
+ }
+ 
+body {
+    background-color: #fcec0a;
+    margin: 0 auto;
+    width: 1100px;
+  }
+
+.blocks {
+    display: flex;
+    background: linear-gradient(to top, white 83%, black 17%);
+
+}
+
+.block-right {
+    width: 40%;
+    font-size: 18px;
+  }
+
+.block-left {
+    width: 60%;
+    
+  }
+
+.header { 
+    font-size: 18px;
+    color: black;
+    margin: 20px 0 50px 0;
+}
+
+.header_container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header_info {
+    text-align: right;
+    padding-right: 20px;
+    background-color: #fcec0a;
+}
+
+.header_menu__list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: #fcec0a;
+    padding: 10px;
+}
+
+.header_menu__item {
+    margin-right: 20px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.main_item {
+    text-align: center;
+    margin: 10px 0;
+}
+
+section img {
+    width: 80%;
+}
+
+hr {
+    border: none;
+    color: #fcec0a;; 
+    background-color: #fcec0a;
+    height: 2px;
+}
+
+.main_item_blocks {
+    display: flex;
+}
+
+.main_item_education {
+    display: flex;
+    margin: 10px;   
+}
+
+.main_item_education_item {
+    width: 300px;
+    margin: auto; 
+}
+
+.school {
+    font-weight: bold;
+}
+
+.kata {
+    margin: 0 10px 0 10px;
+    text-align: justify;
+}
+
+pre {
+    background-color:black;
+    text-align: left;
+  }
+
+.code {
+    color: white;
+  }
+
+ /* ------- RIGHT BLOCK -------*/
+
+  .photo {
+    text-align: center;
+  }
+
+  .about {
+    margin: 10px;
+    text-align: justify;
+  }
+
+  .block-right_about {
+    width: 352px;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 20px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fcec0a;
+    }
+
+.flex-now {
+    display: flex;
+    gap: 20px;
+}
