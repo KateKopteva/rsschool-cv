@@ -16,6 +16,10 @@ h1, h2, h3, p {
     font-weight: normal;
  }
 
+ a {
+    text-decoration: none;
+    color: #000000;
+ }
  
 body {
     background-color: #fcec0a;
@@ -147,3 +151,8 @@ pre {
     color: #000000;
     background-color: #fcec0a;
     }
+
+.flex-now {
+    display: flex;
+    gap: 20px;
+}
